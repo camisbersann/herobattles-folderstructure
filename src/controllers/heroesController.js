@@ -1,4 +1,4 @@
-const express = require('express');
+const pool = require('../config/dbConfig');
 
 async function createHeroes(req, res){
     try {
